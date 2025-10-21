@@ -1,0 +1,7 @@
+espaco = float(input("Qual foi a distância percorrida? "))
+
+tempo =  float(input("Quanto durou a viagem? "))
+
+VM = espaco/tempo
+
+print("A velocidade média corresponde à: ", VM)
