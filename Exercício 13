@@ -1,0 +1,5 @@
+t = float(input("Entre com o valor de segundos: "))
+
+s = 2 + 3 * t + 5 * t**2
+
+print("O valor em metros correponde à: ", s)
