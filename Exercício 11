@@ -1,0 +1,9 @@
+a = float(input("Entre com o valor de a: "))
+
+b = float(input("Entre com o valor de b: "))
+
+a, b = b, a
+
+print("O valor de a se tornou: ", a)
+
+print("O valor de b se tornou: ", b)
