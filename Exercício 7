@@ -1,0 +1,9 @@
+raio = float(input("Qual o raio da sua esfera?"))
+
+A = 4 * 3,14159 * (raio**2)
+
+V = 4/3 * 3,14159 * (raio**3)
+
+print("A área da superfície da sua esfera corresponde à: ", A)
+
+print("O volume de sua esfera corresponde à: ", V)
