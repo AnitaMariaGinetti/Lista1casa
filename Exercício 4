@@ -1,0 +1,9 @@
+a = float(input("Entre com a altura do seu retângulo:"))
+b = float(input("Entre com o comprimento do seu retângulo:"))
+
+A = a * b
+
+P = 2 * a + 2 * b 
+
+print("O perímetro do seu retângulo é: ", P)
+print("A area do seu retângulo é: ", A
