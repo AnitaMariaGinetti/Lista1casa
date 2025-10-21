@@ -1,0 +1,9 @@
+raio = float(input("Informe o raio de sua circunferência: "))
+
+C = 2 * 3,14159 * raio
+
+A =3,14159 * raio * 2
+
+print("A área da sua circunferência corresponde à: ", A)
+
+print("O comprimento da sua circunferência corresponde à: ", C
