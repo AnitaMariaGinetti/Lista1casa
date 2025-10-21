@@ -1,0 +1,6 @@
+massa = float(input("Qual sua massa corporal?" ))
+altura = float(input("Qual sua altura?" ))
+
+IMC = massa / (altura **2) 
+
+print("Seu IMC corresponde à ", IMC)
