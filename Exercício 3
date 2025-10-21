@@ -1,0 +1,12 @@
+AP = float(input("Entre com a Altura da Parede:"))
+LP = float(input("Entre com a Largura da Parede:"))
+AA = float(input("Entre com a Altura dos Azulejos:"))
+LA = float(input("Entre com a Largura dos Azulejos:"))
+
+area_parede = AP * LP
+
+area_azulejo = AA * LA
+
+qtd_final = area_parede / area_azulejo
+
+print("Será necessário a seguinte quantidade de azulejos:", qtd_final)
