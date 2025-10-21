@@ -1,0 +1,9 @@
+P1 = float(input("Qual foi a sua nota da 1º avaliação?"))
+
+P2 = float(input("Qual foi a sua nota da 2º avaliação?"))
+
+Ativ = float(input("Qual foi a sua nota da atividade?"))
+
+notafinal = (P1 * 4 + P2 * 4 + Ativ * 2)/10
+
+print("A sua média anual corresponde à: ", notafinal)
